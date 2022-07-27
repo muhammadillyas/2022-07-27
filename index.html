@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   
+    <title>registretion from</title>
+</head>
+<body style="text-align:center ;" bgcolor="red" >
+    <h1>1ST Assignment</h1>
+    <div class="from">
+    <form action="/action-page.php"></form>
+    <label for="fname">First name </label><br>
+   Nmae <input type="text" placeholder="Enter Name" id="fname"name="fname"><br>
+    <label for="lname">last name </label><br>
+    <input type="text" placeholder="Enter Name" id="flname"name="lname" ><br>
+    <label for="date">date</label>
+    <input type="date" id="date"date="date" value="date"><br>
+    <label for="cars">Choose a gender</label>
+    <select  id="cars" name="cars">
+    <option value="Malle">Male</option>
+    <option value="feMalle">feMale</option>
+    <option value="other">other</option>
+    </select><br>
+    <input type="submit" value="Submit"><br>
+
+   
+    <h2>2nd Assignment</h2><br>
+    Total Amouunt: <br> <input type="number" placeholder="enter total amount"id="total"><br>
+    <button onclick="var totalamount=document.getElementById('total') .value; var wifeShare=totalamount/8;
+    document.getElementById('ilyas').innerHTML=wifeShare;">Wife Share</button><br>
+
+    <button onclick="var totalamount=document.getElementById('total') .value; var sonShare=totalamount/8*7
+    document.getElementById('eshfaq').innerHTML=sonShare;">Son Share</button>
+     <h1 id="ilyas"></h1>
+     <h1 id="eshfaq"></h1>
+</div>
+</body>
+</html>
